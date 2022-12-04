@@ -1,21 +1,23 @@
 using System;
 
-
-class Program
+namespace Main
 {
-  static void Main(string[] args)
+  class Program
   {
-    Console.Write("Enter the number of rows: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Enter the character to: ");
-    char character = Convert.ToChar(Console.ReadLine());
-    for (int i = 1; i <= rows; i++)
+    static void Main(string[] args)
     {
-      for (int j = 1; j <= i; j++)
+      Console.Write("Enter the number of rows : ");
+      int rows = Convert.ToInt32(Console.ReadLine());
+      Console.Write("Enter the character to : ");
+      char character = Convert.ToChar(Console.ReadLine());
+      for (int i = 1; i <= rows; i++)
       {
-        Console.Write(character);
+        for (int j = 1; j <= i; j++)
+        {
+          Console.Write(character);
+        }
+        Console.WriteLine();
       }
-      Console.WriteLine();
     }
   }
 }

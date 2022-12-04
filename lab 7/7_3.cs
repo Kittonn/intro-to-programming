@@ -1,8 +1,12 @@
 using System;
 
-class Program {
-  public static void Main (string[] args) {
-    int n;
+namespace Main
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int n;
       Console.Write("Enter the number of letters : ");
       n = Convert.ToInt32(Console.ReadLine());
       
@@ -17,5 +21,6 @@ class Program {
       {
         Console.Write(letters[i] + " ");
       }
+    }
   }
 }
