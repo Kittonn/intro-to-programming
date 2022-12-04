@@ -1,5 +1,9 @@
 # Introduction to Programming
 
+01006801 - Introduction to Programming 
+
+Engineering management and Entrepreneurship, King Mongkut's Institute of Technology Ladkrabang
+
 ### Overview
 - [ ] Lab 3 - Input and Output
 - [ ] Lab 4 - Conditional Statements
